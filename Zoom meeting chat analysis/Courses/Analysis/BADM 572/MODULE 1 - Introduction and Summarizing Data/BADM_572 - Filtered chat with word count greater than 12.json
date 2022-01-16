@@ -1,0 +1,403 @@
+{
+    "chats": [
+        {
+            "CA 2 Nimisha Jasuja": "Welcome to Week 1 of BADM 572 iMBA Statistics Management! Please make sure your microphone is muted and your video is turned on. We will be starting in a few minutes. Thank you!"
+        },
+        {
+            "Eric Shannon": "HELLO I AM FROM DENVER COLORADO. IT IS A PLEASURE TO MEET YOU ALL"
+        },
+        {
+            "Matt Kessel": "Nice to be with you again Professor Vlad!  I enjoyed working with you in Microeconomics last term :-)."
+        },
+        {
+            "Vlad Dolgopolov": "We will pause for questions a few times throughout today's session. If you have a question to ask, please use \"Raise Hand\" feature in Zoom. It's under Reactions in lower right."
+        },
+        {
+            "Vlad Dolgopolov": "Feel free to ask questions in the chat, too! I keep my eyes on the chat at all times, and I am happy to answer questions as they arise."
+        },
+        {
+            "Adam Scalera": "I plan on doing the focus in Data Analytics, since I'm in the Biotech field and it's just data data data."
+        },
+        {
+            "Vlad Dolgopolov": "But if you have limited time, then concentrate on the content from this course. Besides, a lot of stuff from that onboarding course is pulled from this course, as I recall."
+        },
+        {
+            "Yuri Pellicane": "Could you clarify and/or confirm what EPub and StatPlus will be for this course? Also, How can I find the Add-ins in a Mac should  I purchase EXCEL for Mac?"
+        },
+        {
+            "Vlad Dolgopolov": "You do not need to buy anything, Yuri. You have access to free Office 365 as U of I student; and Data Analysis feature is a part of it, as long as you install it on your computer."
+        },
+        {
+            "Natalia Podporina": "@Yuri, there is instruction for Mac at Canvas as a pat of information for module 1"
+        },
+        {
+            "Jay Tilak": "Thank goodness on the hints\u2026it took me 3 tries to get a 94% on the module 1 quiz"
+        },
+        {
+            "Lauren Waryjas": "The first assignment that is due next Tuesday, is that similar to the module quizzes? Or will it be an excel we need to submit?"
+        },
+        {
+            "Srinivasulu Malagari": "do we need to use only excel ?  can we use other tools (matlab /python...R)"
+        },
+        {
+            "Vlad Dolgopolov": "@Lauren - if you go through the ungraded Assignment 1, you will see exactly what needs to be submitted for the graded version."
+        },
+        {
+            "Nischal Patel": "If we have BI Software such as Tableau, would you allow us to use that?"
+        },
+        {
+            "Chandran Ramasamy Sadasivam": "for module one home work, do we need to submit the final visual diagrams and summary or we need to submit all the steps and supporting work in pdf"
+        },
+        {
+            "Chao-Chuan Wang": "For question 6 and 7 of module 1 assignment, what's the expectation on the length of our answers?"
+        },
+        {
+            "Anupama Verma": "There is a video on Canvas on how to convert excel to pdf - somehow that video is not working for me. Should I be emailing to I-support?"
+        },
+        {
+            "Ashish Mody": "@ Anupama - essentially go to file save as select pdf... make sure you pay attention to 'selection' vs 'active sheet' etc when you generate the pdf"
+        },
+        {
+            "Vlad Dolgopolov": "@Chao-Chuan - a few sentences will do the trick. As long as you answer the question."
+        },
+        {
+            "Mercedes Tucker": "Given the large amount of students, will office hours work for addressing individual questions?"
+        },
+        {
+            "Vlad Dolgopolov": "@Anupama: I suggest trying a different browser at a minimum first; restarting your computer and trying again; and then emailing the support with information/screenshots."
+        },
+        {
+            "Vlad Dolgopolov": "@Mercedes: They've worked perfectly fine before; no reason that this time it will be different! Many students will have very similar questions - so just listening to someone else will often solve your issue."
+        },
+        {
+            "Vlad Dolgopolov": "@Jay: Yes, Canvas. You really want to explore Module 1 material thoroughly there."
+        },
+        {
+            "Dan Nolan": "Ah that\u2019s really helpful. I was following along with random files I downloaded lol"
+        },
+        {
+            "Julio Montes De Oca": "If you want to download the video you will need to download the Lecture mp4 and that may take you to another screen where you will actually need to download."
+        },
+        {
+            "Arsala Khan": "All the materials in Coursera and Canvas are super helpful! Thanks so much for capturing and clearing sharing the deliverables!!"
+        },
+        {
+            "Velineni Rao": "In some of the videos you are zooming in and out in excel is that just your touch screen or is there an excel trick?"
+        },
+        {
+            "Vlad Dolgopolov": "Amir - that is really a good idea; we encourage you to complete Coursera work before the live session."
+        },
+        {
+            "Anupama Verma": "Can we ask here question related to assignment here? Question number 6, I wanted to ask a clarification."
+        },
+        {
+            "Vlad Dolgopolov": "Just remember to use your Illinois.edu email address, include course number, and be as detailed as possible when emailing I-support."
+        },
+        {
+            "Vlad Dolgopolov": "@Anupama: This is not the right forum, unless a very simple question. Either Q&A or office hours."
+        },
+        {
+            "Eric Shannon": "when is the 3rd option for live lectures? is there only 2 different options for this course?"
+        },
+        {
+            "Gene Amdur": "can office hours be used for asking questions regarding work related stats questions/strategy?"
+        },
+        {
+            "Vlad Dolgopolov": "We do prioritize questions related to assignments and to the course, Gene. If there's time left, sure."
+        },
+        {
+            "Siddharth Saladi": "When will group assignments/projects start? Also when will be the groups be assigned?"
+        },
+        {
+            "Adam Scalera": "Are there tutorial files associated with the Coursera videos so I can follow along? I could be blind and am missing them completely."
+        },
+        {
+            "Benjamin Arthur": "Can we complete module assignment on canvas ahead of the class and submit?"
+        },
+        {
+            "Arvind Pal": "How much time each week should be budgeted for this course( on an average)?"
+        },
+        {
+            "Helmut Mayer": "I'm in DC - if anyone in the time zone wants to join a study group, lmk."
+        },
+        {
+            "Vlad Dolgopolov": "@Adam - that's what Prof. Taghaboni-Dutta was showing before. The links to files for Coursera videos are under the videos themselves."
+        },
+        {
+            "Joe Sepulveda": "Prof. Vlad.................Once we begin the weekly assignment in Canvas do we need to complete the assignment in one sitting? Can we close the assignment and reopen it later?"
+        },
+        {
+            "Vlad Dolgopolov": "You don't have to complete them in one sitting. You can save your work, exit, and re-enter."
+        },
+        {
+            "Vlad Dolgopolov": "Actually, I think Canvas saves your work automatically - there might not even be a \"save\" button."
+        },
+        {
+            "Subha Tarafdar": "Any suggestions on where we can get questions for extra practice, in addition to the Canvas assignments?"
+        },
+        {
+            "Arsala Khan": "Yes! Ungraded assignments are very helpful! Not only tests us on the material but also perseverance to make sure we get the right answer :)"
+        },
+        {
+            "Jay Tilak": "So\u2026the \u201cungraded\u201d is EXACTLY the same?  As in the graded version isn\u2019t going to slightly change the question?"
+        },
+        {
+            "Vlad Dolgopolov": "@Subha: Coursera. The web version of the textbook has additional practice questions, too."
+        },
+        {
+            "Lala Khachatrian": "do we have to use Excel elsewhere and copy to the assignment or it will be available on the assignment sheet? thanks"
+        },
+        {
+            "Chandran Ramasamy Sadasivam": "Professor Dologopolov, for assignments includes the graphs in excel, do we need to all the steps and calculations and supporting work in pdf? or only the final visual graphs and summary and observations?"
+        },
+        {
+            "Arsala Khan": "Will the remaining modules follow the same process re: ungraded vs graded assignments?"
+        },
+        {
+            "Vlad Dolgopolov": "@Chandran: If we ask for PDF, then just the final work - no calculations."
+        },
+        {
+            "Vlad Dolgopolov": "For Assignment 3, you must submit an Excel file with all built-in calculations and formulas."
+        },
+        {
+            "Vlad Dolgopolov": "@Arsala - yes. However, not all modules have graded/ungraded - some have only one graded assignment because assignment design does not extend to having two versions."
+        },
+        {
+            "Argin Wong": "If the assignment asks for the PDF only, should the tables be submitted in addition to the graphs/explanations? Or just the graphs/explanations?"
+        },
+        {
+            "Vlad Dolgopolov": "@Argin: We give you detailed requirements in the directions that tell you what you need to submit."
+        },
+        {
+            "Ravi Naroo": "So the ungraded questions are the same as the questions on the graded?"
+        },
+        {
+            "Saloni Rane": "I had taken a statistics class it was difficult one more. I like the concept of trying as many times we can till we get the answers correct. This is the best way to do Statistics! Thank you"
+        },
+        {
+            "Dan Nolan": "I got 20/75, but 6/7 worth 25pts per question. That doesn\u2019t add up where are the other 5 points?"
+        },
+        {
+            "Neelesh Rane": "Appreciate the long introduction to the course!! Looking forward for a great learning experience."
+        },
+        {
+            "Gene Amdur": "the syllabus has answers to 90% of these questions. its a great read! highly recommend."
+        },
+        {
+            "Vlad Dolgopolov": "@Dan: I don't know - but the assignment is programmed correctly. Go back and review."
+        },
+        {
+            "Lauren Waryjas": "Professor, earlier you had mentioned we could download excel.  Does this apply for the latest MAC version?  If so, how do I go about getting that?"
+        },
+        {
+            "Ahmed Alshaer": "Assignment 3 is not related to Module 1, so not due for next week, right?"
+        },
+        {
+            "Stephanie Frey": "Thank you for the detailed explanation of the class, Professor. I was a little anxious about how hard this would be, but I feel much better now."
+        },
+        {
+            "Priscilla Law Aquino": "The assignments that you miss, are those individual ones only? Or group ones too?"
+        },
+        {
+            "Lauren Waryjas": "Is that the only way to get extra credit then in the course?"
+        },
+        {
+            "Christine DeSousa": "Did I understand correctly that our group will be known in about 9 days, and the group assignment starts week 4?"
+        },
+        {
+            "Jay Tilak": "2022 resolution is Dean\u2019s List (assuming there is such a thing).  Heck yeah on +20 pts"
+        },
+        {
+            "Koffi Guidi": "Assignment 3 is not related to Module 1, so not due for next week, right?"
+        },
+        {
+            "Jay Tilak": "Are there any statistics people here that are just doing this class for kicks? Would love to be in a study group with you\u2026"
+        },
+        {
+            "Lala Khachatrian": "You can create a link for your group in workspace once the group is assigned"
+        },
+        {
+            "Patrick Harris": "For group assignments: Will we be assigned group team members or can we pick our own groups?"
+        },
+        {
+            "Kathleen St. Louis Caliento": "I'm in Chicago but rep the east coast, so happy ot join one of those groups! ;)"
+        },
+        {
+            "Michael Penninger": "Do you assign the work groups or do we have to find people through discussion board?"
+        },
+        {
+            "Vlad Dolgopolov": "There is a policy in the syllabus that explains what is permissible and not permissible in collaborating with others."
+        },
+        {
+            "Adam Wishne": "Same @Kathleen and @EvanWhite, lets join up. Glad to have some CT zone folks"
+        },
+        {
+            "Amit Aggarwal": "I would be interested in joining a workgroup based on PST. I am in Los Angeles.  Thanks"
+        },
+        {
+            "Raktim Majumdar": "Can\u2019t access the Workplace link with Illinois id. Is there something to be done from my side?"
+        },
+        {
+            "Siddharth Saladi": "Not in Chicago but in central time zone so would love to join a study group."
+        },
+        {
+            "Chandran Ramasamy Sadasivam": "Professor Vlad, if I dont understand the assignment questions, can I ask other students or i have to work with only whatever I can understand from the given material?"
+        },
+        {
+            "Jay Tilak": "Honestly...I didn\u2019t know the \u201cini\u201d thing. I\u2019m glad prof FTD finally put that out there"
+        },
+        {
+            "Kristin Bohne": "Richard - I felt this way at first too, but after 2 classes I just hide it"
+        },
+        {
+            "Irfan Sarwar": "yes, chat window is annoying.  just keep it open and to the side of the screen"
+        },
+        {
+            "Tholkappian S A": "I am in central time zone as well and would love to join any of the study groups"
+        },
+        {
+            "Gerald Spencer": "From O'Fallon IL, Living in Georgia. I would love to join a workplace study group. I couldn't get the link earlier provided to work properly."
+        },
+        {
+            "Michael Penninger": "Everyone that says \"yes you can save it\" that isn't helpful when someone asks \"how\""
+        },
+        {
+            "Yuri Pellicane": "Richard, you can click at the top left corner, there is a pop out option and you can hide it or place as you please"
+        },
+        {
+            "Jay Tilak": "More power too you if you\u2019re going to read through this chat later"
+        },
+        {
+            "Vlad Dolgopolov": "Chandran - you can ask you questions in the Q&A or in the office hours."
+        },
+        {
+            "Zheng Wang | MLE/DS": "Assignments are in modules. Not sure if other courses has them in its own session"
+        },
+        {
+            "Koffi Guidi": "What are the consequences if student fails to complete the weekly activities in Coursera?"
+        },
+        {
+            "Eric Braxton": "As long as you finish them all before the end of Week 4"
+        },
+        {
+            "Vlad Dolgopolov": "Deadlines in Cousera have some flexibility; deadlines in Canvas are very strict. You miss a deadline = you get a zero."
+        },
+        {
+            "Jay Tilak": "Is there a calendar invite somewhere for when all of the assignments are due? (e.g. something I can download onto outlook or google calendar)?"
+        },
+        {
+            "Evan White": "I did not enjoy Statistics all that much in undergrad but I have a much better feeling about this class"
+        },
+        {
+            "Eric Braxton": "2% of Americans honestly admit they don't actually know what raising the debt ceiling means."
+        },
+        {
+            "Michelle Tenazas": "OMG this will now be my new favorite activity. I might turn it into a drinking game."
+        },
+        {
+            "Lala Khachatrian": "Prof. Vlad, Online Programs Fundamental Skills in the syllabus is an optional aid if one needs it correct? it is not required to complete for this course. Thank you"
+        },
+        {
+            "Koffi Guidi": "I am impressed by the way professor Fataneh manage to identify the wrong stats display on TV. I have never paid attention to such"
+        },
+        {
+            "Yuri Pellicane": "@Kathleen I like your word choice. You are making go to my dictionary"
+        },
+        {
+            "Pawan Upadhyay": "is the poll popping on screen or we are supposed to type in chat? I did not get any poll survey.."
+        },
+        {
+            "Yuri Pellicane": "One of the universal principles of design is that our eye will often go to the top right first when looking at something"
+        },
+        {
+            "Michael Penninger": "I wouldn't use research from a chart like that to open a pizza shop"
+        },
+        {
+            "Jay Tilak": "I think the culprit is that whoever did the research is so close to the data that they don\u2019t realize how horrible their visual is"
+        },
+        {
+            "Michael Penninger": "I can't wait for the \"zoom out\" on the axis trick to make it look like you have a good correlation"
+        },
+        {
+            "Natalia Podporina": "With generation raised on TikTok, everything is about presentation in 5 seconds time span"
+        },
+        {
+            "Julio Montes De Oca": "Yea not like media and politicians playing with numbers and charts to scare people."
+        },
+        {
+            "Jay Tilak": "For the record, that\u2019s a bit misleading\u2026all of those sectors over lap (e.g. manufacturing needs electricity)"
+        },
+        {
+            "Jay Tilak": "That was serious excel wizardry when I saw \u201cpie of pie\u201d in the video"
+        },
+        {
+            "Yaotien Chou": "can we say when each numbers are very close, pie chart is not a good way to do visualization?"
+        },
+        {
+            "Vlad Dolgopolov": "@Gene - I think it's just Module 1, really, that has the charts in color."
+        },
+        {
+            "Eric Braxton": "#1 - France and UK are where most Americans would expect Alaska and Hawaii to be..."
+        },
+        {
+            "Michael Fowle": "it's cause they aren't showing how many people are in each region, the average is high because a ton of people work in expensive cities"
+        },
+        {
+            "Yuri Pellicane": "It is all over the place and there is not hierarchy among the elements so it is hard to read any relevant info"
+        },
+        {
+            "Laura Garest": "Paris and London look like they're islands off the southern coast of the US"
+        },
+        {
+            "Anupama Verma": "It doesn\u2019t show which ones are above average and which ones are below average."
+        },
+        {
+            "Michael Penninger": "They may have surveyed more people from SF than anywhere else - it's definitely suspicious"
+        },
+        {
+            "Eric Braxton": "$135 isn't the average of the values, it's a comparison point for the cities shown"
+        },
+        {
+            "Vlad Dolgopolov": "No - histogram contains 100% of your data. The area of the histogram bars is 100%."
+        },
+        {
+            "Vlad Dolgopolov": "@Srinivasulu: They can be, to a degree - a well-selected bin size is important."
+        },
+        {
+            "Vlad Dolgopolov": "We do not share the slidedeck, but you can rely on the recording."
+        },
+        {
+            "Srinivasulu Malagari": "Prof .  is there a recommended bin size as a thumb rule ?"
+        },
+        {
+            "Vlad Dolgopolov": "When you are plotting datapoints that show relationship between two variables, and try to figure out trends in this relationship."
+        },
+        {
+            "Abbas Khan": "One way to simply the Histogram vs. Bar Graph understanding is to refer to the Module 1 topic of Quantitative data vs. Qualitative data. Qualitative data can be Nominative and Ordinal. Histograms can only be used for Quantitative data. Bar Graphs are used for Qualitative data."
+        },
+        {
+            "Jas Singh": "Way to detect cooked books by looking at the data on the occurrences of digits in the data: https://abcnews.go.com/Technology/WhosCounting/story?id=98043&page=1"
+        },
+        {
+            "Pawan Upadhyay": "Prof Vlad.. What does it mean by characteristics of a histogram? does it mean Range and mode etc.?"
+        },
+        {
+            "Velineni Rao": "Prof Dutta - your passion for data integrity and facts (and question the misleading facts) is very inspiring"
+        },
+        {
+            "Vlad Dolgopolov": "@Pawan: Is this about Question 6? I think it's about characteristics of the two cities, not the characteristics of the histogram."
+        },
+        {
+            "Abbas Khan": "Also, the entirety of data in the histogram vs. bar graphs is not the correct way to understand it. Both can be complete data sets. Its the type of data itself (quantitative vs. Qualitative) that dictates which type of statistical graphing to use...."
+        },
+        {
+            "Eric Shannon": "THANK YOU FOR THE TIME PROFESSOR. I HAVE A HARD STOP NOW. LIVE LONG AND PROSPER"
+        },
+        {
+            "Melissa Di Benedetto": "Could use histogram in the shoe question if organizing by age (that could be the bin...)"
+        },
+        {
+            "Christine DeSousa": "I was very nervous about this class, but thank you Professors for making this class very approachable and easing my mind.  I am really looking forward to this class."
+        }
+    ]
+}

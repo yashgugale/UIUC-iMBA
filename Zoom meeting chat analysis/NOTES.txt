@@ -1,0 +1,6 @@
+1. To download NLTK packages to appropriate location, use the following statements:
+
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+--> Add more packages to the nltk.download() function to download and save them. You won't have to use them again next time.
