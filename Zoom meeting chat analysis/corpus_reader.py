@@ -1,6 +1,6 @@
 from importlib.util import spec_from_file_location
 from textwrap import indent
-from corpus import ZoomCorpusReader 
+from corpus import ZoomCorpusReader, PickledZoomCorpusReader
 from pre_processing import PreProcessor
 from collections import Counter
 # Use the following to download the packages to appropirate location:
@@ -69,4 +69,12 @@ def read_corpus():
 
 
 
-read_corpus()
+if __name__ == '__main__':
+    from collections import Counter
+    
+    corpus = PickledZoomCorpusReader(COURSE_NAME, PREPROCESSED_CORPUS_PATH)
+    words = Counter(corpus.words())
+
+    print("{:,} vocabulary {:,} word count".format(len(words.keys()), sum(words.values())))
+
+    

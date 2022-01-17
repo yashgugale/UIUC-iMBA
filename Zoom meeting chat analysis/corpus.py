@@ -13,6 +13,7 @@ from nltk import pos_tag, sent_tokenize, wordpunct_tokenize
 import re
 from datetime import datetime
 import time
+import pickle
 
 # A Zoom chat corpus reader:
 class ZoomCorpusReader(CategorizedPlaintextCorpusReader):
@@ -167,6 +168,97 @@ class ZoomCorpusReader(CategorizedPlaintextCorpusReader):
             'sppar':  float(counts['sents']) / float(counts['paras']),
             'secs':   time.time() - started,
         }
+
+# Class to load pickled preprocessed corpus:
+class PickledZoomCorpusReader(CategorizedPlaintextCorpusReader):
+
+    # The arg 'corpus_path' must actually be 'root' since now its actually
+    # the pre-processed corpus path. So 'corpus_path' is incorrect.
+    # TODO: Make arg name fix as described above^ (Currently throws AttributeError)
+    def __init__(self, name, corpus_path):
+        self.name = name
+        self.corpus_path = corpus_path
+        self.cat_pattern = r'(.*)[/]'
+        self.pkl_pattern = '.*\.pickle'
+
+        CategorizedPlaintextCorpusReader.__init__(self, 
+            self.corpus_path, 
+            self.pkl_pattern, 
+            cat_pattern=self.cat_pattern)
+
+
+    def resolve(self, fileids, categories):
+        """
+        Returns a list of fileids or categories depending on what is passed
+        to each internal corpus reader function. This primarily bubbles up to
+        the high level ``docs`` method, but is implemented here similar to
+        the nltk ``CategorizedPlaintextCorpusReader``.
+        """
+        if fileids is not None and categories is not None:
+            raise ValueError("Specify fileids or categories, not both")
+
+        if categories is not None:
+            return self.fileids(categories)
+        return fileids
+
+    def docs(self, fileids=None, categories=None):
+        """
+        Returns the document loaded from a pickled object for every file in
+        the corpus. Similar to the BaleenCorpusReader, this uses a generator
+        to acheive memory safe iteration.
+        """
+        # Resolve the fileids and the categories
+        fileids = self.resolve(fileids, categories)
+
+        # Create a generator, loading one document into memory at a time.
+        for path, encoding, fileid in self.abspaths(fileids, True, True):
+            with open(path, 'rb') as f:
+                yield pickle.load(f)
+
+    def paras(self, fileids=None, categories=None):
+        """
+        Returns a generator of paragraphs where each paragraph is a list of
+        sentences, which is in turn a list of (token, tag) tuples.
+        """
+        for doc in self.docs(fileids, categories):
+            for paragraph in doc:
+                yield paragraph
+
+    def sents(self, fileids=None, categories=None):
+        """
+        Returns a generator of sentences where each sentence is a list of
+        (token, tag) tuples.
+        """
+        for paragraph in self.paras(fileids, categories):
+            for sentence in paragraph:
+                yield sentence
+
+    def tagged(self, fileids=None, categories=None):
+        for sent in self.sents(fileids, categories):
+            for token in sent:
+                yield token
+
+    def words(self, fileids=None, categories=None):
+        """
+        Returns a generator of (token, tag) tuples.
+        """
+        for token in self.tagged(fileids, categories):
+            yield token[0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     # # Read a categorized plain text corpus:
     # def categorized_plain_text_corpus_reader(self):
