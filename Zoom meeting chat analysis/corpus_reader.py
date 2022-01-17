@@ -2,12 +2,10 @@ from importlib.util import spec_from_file_location
 from corpus import ZoomCorpus 
 from pre_processing import PreProcessing
 from collections import Counter
-from nltk.corpus import stopwords
 # Use the following to download the packages to appropirate location:
 # import nltk
 # nltk.download('stopwords')
 # nltk.download('punkt')
-from nltk.tokenize import word_tokenize
 
 COURSE_NAME = "BADM 508"
 CORPUS_PATH = r"D:/40-UIUC iMBA/MBA Program Materials/UIUC-IMBA Projects/Zoom meeting chat analysis/Courses/Corpus/" + COURSE_NAME
@@ -26,9 +24,10 @@ def read_corpus():
     # print(type(corpus_data))
     # print(dir(corpus_processing))
 
-    paras = list(corpus_processing.paras())
-    print(paras)
-    print(len(paras))
+    words = list(corpus_processing.words())
+    print(words)
+    # print(*words, sep="\n")
+    print(len(words))
     # tokens = corpus_processing.tokenize()
     # tokens_lowercase = corpus_processing.make_lower(tokens)
     # tokens_without_sw = corpus_processing.remove_stopwords(tokens_lowercase)

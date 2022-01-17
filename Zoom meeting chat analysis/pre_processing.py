@@ -6,6 +6,9 @@ from nltk.corpus import stopwords
 # nltk.download('stopwords')
 # nltk.download('punkt')
 from nltk.tokenize import word_tokenize
+from nltk import sent_tokenize
+from nltk import wordpunct_tokenize
+
 import re
 from datetime import datetime
 
@@ -37,6 +40,22 @@ class PreProcessing():
                     start_index = idx
             # Return the last para:
             yield self.corpus.raw()[start_index:]
+
+    def sents(self):
+        """ Extract all sentences from paras """
+        
+        for paragraph in self.paras():
+            for sentence in sent_tokenize(paragraph):
+                yield sentence
+
+    def words(self):
+        """ Extract all words from sentences """
+        # Options for tokenizers in NTLK:
+        # TreebankWordTokenizer, WordPunctTokenizer, PunctWordTokenizer, WhitespaceTokenizer
+        # Check difference: http://text-processing.com/demo/tokenize/
+        for sentence in self.sents():
+            for token in wordpunct_tokenize(sentence):
+                yield token
 
     def tokenize(self, log=False):
         """ Tokenize the text """
@@ -84,6 +103,6 @@ class PreProcessing():
 
     def spell_check(self, tokens, log=False):
         """ Spell checker """
-        
+
         # TODO: Spell checker and corrector here
         pass
